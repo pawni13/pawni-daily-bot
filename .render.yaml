@@ -2,7 +2,7 @@ services:
 - type: web
 name: pawni-daily-bot
 env: python
-region: oregon
+region: singapore
 plan : free
 buildCommand: "pip install -r requirements.txt"
 startCommand :"python main.py"
