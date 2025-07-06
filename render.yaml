@@ -3,8 +3,8 @@ services:
 name: pawni-daily-bot
 env: python
 region: singapore
-plan : free
+plan: free
 buildCommand: "pip install -r requirements.txt"
-startCommand :"python main.py"
+startCommand:"python main.py"
 runtime: python 
 pythonVersion: 3.10.13
